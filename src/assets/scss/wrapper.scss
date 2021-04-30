@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100%;
+  display: table;
+  margin: 0 auto;
+  width: 1060px;
+  position: relative;
+
+  & .holder {
+    margin: 0 auto;
+    width: 960px;
+  }
+  @media screen and (max-width: 1095px) {
+    width: 100%;
+    display: block;
+
+    & .holder {
+      width: 100%;
+      padding: 0 30px;
+      box-sizing: border-box;
+    }
+  }
+
+  @media screen and (max-width: 525px){
+    & .holder {
+      padding: 0 10px;
+    }
+  }
+}

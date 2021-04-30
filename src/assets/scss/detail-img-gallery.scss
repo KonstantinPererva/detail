@@ -1,0 +1,7 @@
+.detail-img-gallery {
+  &__img {
+    & + & {
+      margin: 20px 0 0;
+    }
+  }
+}

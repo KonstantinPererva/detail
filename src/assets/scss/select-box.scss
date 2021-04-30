@@ -1,0 +1,17 @@
+.select-box {
+  &__title {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: $c-gr;
+    margin: 0 0 10px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

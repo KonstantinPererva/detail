@@ -1,0 +1,21 @@
+.info-descr-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin: 55px 0;
+
+  & ol {
+    margin: 0;
+    padding: 0 0 0 16px;
+
+    & li {
+      list-style-type: decimal;
+
+      & + li {
+        margin: 20px 0 0;
+      }
+    }
+  }
+}

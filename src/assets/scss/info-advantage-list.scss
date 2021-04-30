@@ -1,0 +1,9 @@
+.info-advantage-list {
+  display: flex;
+  align-items: flex-start;
+  margin: 55px 0;
+
+  @media (max-width: 479px) {
+    display: block;
+  }
+}

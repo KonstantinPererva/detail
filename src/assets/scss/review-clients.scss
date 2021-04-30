@@ -1,0 +1,37 @@
+.review-clients {
+  &__item {
+    & + & {
+      margin: 15px 0 0;
+    }
+  }
+
+  &__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #001A27;
+    margin: 0 0 10px;
+  }
+
+  &__date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #888888;
+    margin: 0 0 10px;
+  }
+
+  &__status {
+    margin: 0 0 10px;
+  }
+
+  &_descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #001A27;
+  }
+}

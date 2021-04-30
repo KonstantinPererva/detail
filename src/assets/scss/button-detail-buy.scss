@@ -1,0 +1,36 @@
+.button-detail-buy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 123px;
+  height: 41px;
+  background: $bg;
+  background: $bg-grad;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    text-decoration: none;
+  }
+
+  .detail-buttons & {
+    margin-right: 10px;
+  }
+
+  .detail-small-box-info & {
+    height: 26px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

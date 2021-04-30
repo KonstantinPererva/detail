@@ -1,0 +1,33 @@
+.switch-button {
+  display: block;
+  position: relative;
+  height: inherit;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #979595;
+  cursor: pointer;
+  transition: 150ms;
+
+  &:hover {
+    color: #000;
+  }
+
+  &.active {
+    color: #000;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      background: $bg;
+      background: $bg-grad;
+    }
+  }
+}

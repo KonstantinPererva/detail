@@ -1,0 +1,30 @@
+.form-review {
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0 0 20px;
+  }
+
+  &__box {
+    & + & {
+      margin: 20px 0 0;
+    }
+  }
+
+  &__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__col {
+    flex-shrink: 0;
+    width: calc(50% - 5px);
+  }
+
+
+}

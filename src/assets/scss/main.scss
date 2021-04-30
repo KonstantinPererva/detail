@@ -1,0 +1,83 @@
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/normalize";
+@import "utils/reset";
+@import "utils/base";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &:after, &:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+@import "../css/drift-basic.css";
+@import "wrapper";
+@import "detail-tab-list";
+@import "detail-content";
+@import "detail-name-goods";
+@import "article";
+@import "detail-tabs";
+@import "switch-tabs";
+@import "switch-list";
+@import "switch-button";
+@import "info-data";
+@import "info-data-row";
+@import "detail-slider";
+@import "photo-slider-container";
+@import "photo-slide";
+@import "min-photo-slider";
+@import "min-photo-slide";
+@import "min-photo-slider-container";
+@import "min-photo-slide-card";
+@import "min-photo-slider-button";
+@import "advantages";
+@import "presence";
+@import "presence-info";
+@import "status";
+@import "status-stars";
+@import "share";
+@import "share-button";
+@import "select-box";
+@import "select-box-label";
+@import "select-color";
+@import "select-item";
+@import "detail-price";
+@import "discount";
+@import "detail-buttons";
+@import "button-detail-buy";
+@import "button-detail-buy-one-click";
+@import "detail-compare";
+@import "improve";
+@import "button-improve";
+@import "info-descr";
+@import "info-advantage-list";
+@import "info-advantage-item";
+@import "info-descr-list";
+@import "detail-main-info";
+@import "detail-double-box";
+@import "detail-characteristic-table";
+@import "detail-additional-info";
+@import "detail-small-box-info";
+@import "goods-small-info";
+@import "detail-img-gallery";
+@import "review-empty";
+@import "review-clients";
+@import "detail-review";
+@import "form-review";
+@import "form-field";
+@import "form-review-confirmation";
+@import "form-checkbox";
+@import "button-form-review";
+@import "detail-video";
+@import "button-form-buy-one-click";
+@import "popup-window";
+@import "popup-window-content";
+@import "form-buy-one-click";
+@import "popup-window-substrate";
+@import "popup-window-close";

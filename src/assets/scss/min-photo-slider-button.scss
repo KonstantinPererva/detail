@@ -1,0 +1,15 @@
+.min-photo-slider-button {
+  height: 60px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+
+  &.right {
+    order: 3;
+  }
+}

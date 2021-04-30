@@ -1,0 +1,13 @@
+.form-buy-one-click {
+
+  &__row {
+    & + & {
+      margin: 20px 0 0;
+    }
+  }
+
+  &__button {
+    margin: 35px 0 0;
+    text-align: center;
+  }
+}

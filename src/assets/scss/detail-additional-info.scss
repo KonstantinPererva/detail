@@ -1,0 +1,21 @@
+.detail-additional-info {
+  padding: 15px;
+  background: #f4f3f3;
+
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #626161;
+    margin: 0 0 13px;
+  }
+
+  &__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+}

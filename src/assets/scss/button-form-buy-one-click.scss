@@ -1,0 +1,25 @@
+.button-form-buy-one-click {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 267px;
+  height: 45px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 0 20px;
+  background: $bg;
+  background: $bg-grad;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    text-decoration: none;
+  }
+}

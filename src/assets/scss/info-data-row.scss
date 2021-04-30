@@ -1,0 +1,25 @@
+.info-data-row {
+  & + & {
+    margin-top: 24px;
+  }
+
+  &_flex {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 479px) {
+      align-items: flex-start;
+    }
+  }
+
+  &__cell {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 479px) {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.min-photo-slide {
+  position: relative;
+  width: 60px !important;
+  height: 60px;
+  padding: 1px;
+  background: $bg;
+  background: $bg-grad;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}

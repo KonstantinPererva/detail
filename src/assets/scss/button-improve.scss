@@ -1,0 +1,26 @@
+.button-improve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: #FF6060;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  white-space: nowrap;
+  user-select: none;
+  transition: 150ms;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #DF3C3C;
+  }
+
+  &__ico {
+    flex-shrink: 0;
+    margin: 0 14px 0 0;
+  }
+}

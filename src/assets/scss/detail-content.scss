@@ -1,0 +1,15 @@
+.detail-content {
+  margin: 0 0 50px;
+
+  &__header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin: 0 0 30px;
+
+    @media (max-width: 767px) {
+      display: block;
+      margin: 0 0 20px;
+    }
+  }
+}

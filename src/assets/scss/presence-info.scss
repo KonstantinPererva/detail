@@ -1,0 +1,27 @@
+.presence-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  min-width: 160px;
+  height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  padding: 0 20px;
+  border-radius: 5px;
+
+  &_under-order {
+    background: #6FB676;
+  }
+
+  &_is-stock {
+    background: #16A024;
+  }
+
+  &_not-is-stock {
+    background: #ACACAC;
+  }
+}

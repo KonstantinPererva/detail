@@ -1,0 +1,15 @@
+.popup-window-close {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: 6px 0;
+  cursor: pointer;
+
+  &__ico {
+    margin: 0 5px 0 0;
+  }
+}

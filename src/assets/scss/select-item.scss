@@ -1,0 +1,29 @@
+.select-item {
+  margin: 0 10px 0 0;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  & span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    color: #a6a6a6;
+    padding: 0 8px;
+    height: 24px;
+    user-select: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  & .select-box-label__input {
+    &:checked + span {
+      color: #000;
+    }
+  }
+}

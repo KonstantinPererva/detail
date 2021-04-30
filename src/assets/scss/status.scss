@@ -1,0 +1,8 @@
+.status {
+  flex-shrink: 0;
+  margin: 0 0 0 10px;
+
+  @media (max-width: 479px) {
+    margin: 25px 0 0;
+  }
+}

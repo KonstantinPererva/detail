@@ -1,0 +1,28 @@
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  height: 24px;
+  color: #999;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 5px;
+  border: 1px solid #a0a0a0;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    text-decoration: none;
+  }
+
+  &__ico {
+    flex-shrink: 0;
+    margin: 0 10px 0 0;
+  }
+}

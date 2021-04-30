@@ -1,0 +1,8 @@
+.detail-tab-list {
+  &__item {
+    display: none;
+  }
+  &__item.active {
+    display: block !important;
+  }
+}

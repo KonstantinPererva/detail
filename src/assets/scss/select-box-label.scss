@@ -1,0 +1,22 @@
+.select-box-label {
+  display: block;
+
+  & span {
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    text-decoration: none;
+    transition: 150ms;
+  }
+
+  &__input {
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: -9999px;
+  }
+}
