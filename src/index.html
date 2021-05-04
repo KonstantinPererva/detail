@@ -26,35 +26,37 @@
 
                 <div class="detail-content__body">
                     <div class="detail-tabs">
-                        <div class="switch-tabs">
-                            <div class="switch-list">
-                                <div class="switch-list__item">
-                                    <div class="switch-button active" data-button-tab="0">
-                                        <span>Все о товаре</span>
+                        <div class="detail-tabs__switch">
+                            <div class="switch-tabs">
+                                <div class="switch-list">
+                                    <div class="switch-list__item">
+                                        <div class="switch-button active" data-button-tab="0">
+                                            <span>Все о товаре</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="switch-list__item">
-                                    <div class="switch-button" data-button-tab="1">
-                                        <span>Характеристики</span>
+                                    <div class="switch-list__item">
+                                        <div class="switch-button" data-button-tab="1">
+                                            <span>Характеристики</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="switch-list__item">
-                                    <div class="switch-button"data-button-tab="2">
-                                        <span>Фото</span>
+                                    <div class="switch-list__item">
+                                        <div class="switch-button"data-button-tab="2">
+                                            <span>Фото</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="switch-list__item">
-                                    <div class="switch-button" data-button-tab="3">
-                                        <span>Видео</span>
+                                    <div class="switch-list__item">
+                                        <div class="switch-button" data-button-tab="3">
+                                            <span>Видео</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="switch-list__item">
-                                    <div class="switch-button" data-button-tab="4">
-                                        <span>Отзывы</span>
+                                    <div class="switch-list__item">
+                                        <div class="switch-button" data-button-tab="4">
+                                            <span>Отзывы</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +102,7 @@
                                             <div class="min-photo">
                                                 <div class="min-photo-slider-button swiper-button-disabled" id="minPhotoPrev" style="display: none">
                                                     <svg width="16" height="31" viewBox="0 0 16 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M13.597 1.23875C13.7903 1.03184 14.0318 0.928467 14.2975 0.928467C14.5632 0.928467 14.8047 1.03184 14.998 1.23875C15.3845 1.65257 15.3845 2.32497 14.998 2.73874L2.67914 15.9285L14.998 29.1181C15.3845 29.5319 15.3845 30.2043 14.998 30.6181C14.6115 31.0319 13.9835 31.0319 13.597 30.6181L0.577712 16.6785C0.191218 16.2647 0.191218 15.5923 0.577712 15.1785L13.597 1.23875Z" fill="#3F4E5D" fill-opacity="0.64"/>
+                                                        <path d="M13.597 1.23875C13.7903 1.03184 14.0318 0.928467 14.2975 0.928467C14.5632 0.928467 14.8047 1.03184 14.998 1.23875C15.3845 1.65257 15.3845 2.32497 14.998 2.73874L2.67914 15.9285L14.998 29.1181C15.3845 29.5319 15.3845 30.2043 14.998 30.6181C14.6115 31.0319 13.9835 31.0319 13.597 30.6181L0.577712 16.6785C0.191218 16.2647 0.191218 15.5923 0.577712 15.1785L13.597 1.23875Z" fill="#1C71B8"/>
                                                     </svg>
                                                 </div>
 
@@ -154,7 +156,7 @@
 
                                                 <div class="min-photo-slider-button" id="minPhotoNext" style="display: none">
                                                     <svg width="15" height="30" viewBox="0 0 15 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1.69083 29.6897C1.49759 29.8966 1.25604 30 0.990341 30C0.724635 30 0.483095 29.8966 0.289855 29.6897C-0.0966183 29.2759 -0.0966183 28.6034 0.289855 28.1897L12.6087 15L0.289855 1.81036C-0.0966183 1.39654 -0.0966183 0.724148 0.289855 0.310326C0.676325 -0.103442 1.30435 -0.103442 1.69083 0.310326L14.7102 14.25C15.0966 14.6638 15.0966 15.3362 14.7102 15.75L1.69083 29.6897Z" fill="#3F4E5D" fill-opacity="0.64"/>
+                                                        <path d="M1.69083 29.6897C1.49759 29.8966 1.25604 30 0.990341 30C0.724635 30 0.483095 29.8966 0.289855 29.6897C-0.0966183 29.2759 -0.0966183 28.6034 0.289855 28.1897L12.6087 15L0.289855 1.81036C-0.0966183 1.39654 -0.0966183 0.724148 0.289855 0.310326C0.676325 -0.103442 1.30435 -0.103442 1.69083 0.310326L14.7102 14.25C15.0966 14.6638 15.0966 15.3362 14.7102 15.75L1.69083 29.6897Z" fill="#1C71B8"/>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -1317,6 +1319,8 @@
     </div>
 </body>
 
+
 <script src="assets/libs/swiper/swiper.min.js"></script>
 <script src="assets/libs/Drift/Drift.min.js"></script>
+<!--<script src="assets/libs/popupSliders.js"></script>-->
 </html>

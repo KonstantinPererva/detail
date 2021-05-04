@@ -2,4 +2,12 @@
   flex-shrink: 0;
   order: 2;
   width: 340px;
+
+  @media (max-width: 479px) {
+    width: 270px;
+  }
+
+  @media (max-width: 399px) {
+    width: 200px;
+  }
 }

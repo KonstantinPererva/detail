@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
+  @media (max-width: 992px) {
+    margin: 0 auto 20px;
+  }
+
   &-item {
     flex-shrink: 0;
     width: 194px;

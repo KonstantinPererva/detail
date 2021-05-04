@@ -9,6 +9,10 @@
   cursor: pointer;
   user-select: none;
 
+  &.swiper-button-disabled {
+    opacity: .5;
+  }
+
   &.right {
     order: 3;
   }

@@ -26,6 +26,10 @@
 
   .detail-buttons & {
     margin-right: 10px;
+
+    @media (max-width: 992px) {
+      margin-right: 7px;
+    }
   }
 
   .detail-small-box-info & {
